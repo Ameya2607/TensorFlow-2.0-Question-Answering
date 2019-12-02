@@ -13,9 +13,9 @@
 # REQUIREMENTS
  We use the pre-trained model implemented by Google. In order to do so, we need to run the following commands, which would create 5 files for us. 
  
-'''
+,,,
 !pip install --no-dependencies natural-questions
-'''
+,,,
 
 Next you would need to install 
 
