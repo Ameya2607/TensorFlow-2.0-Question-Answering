@@ -31,7 +31,7 @@ Next we download the files from google repositories:
 
 This would generate 5 files which would contain the model config file, vocabulary and the model checkpoint file.
 
-Since the checkpoint module is in tensorflow 1.0 while the keras implementation of BERT is in tensorflow 2.0, we loaded the using using the compatibility module tf.compat.v1 and saved back using the tf 2.0 Checkpoint function.
+Since the checkpoint module is in tensorflow 1.0 while the keras implementation of BERT is in tensorflow 2.0, we loaded the parameters using the compatibility module tf.compat.v1 and saved back using the tf 2.0 Checkpoint function.
 
 The new checkpoint is added in the data in the master branch.
 
