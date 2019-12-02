@@ -11,7 +11,8 @@
   Open-domain question answering (QA) systems emulate how people look for information by reading the web to return answers to common questions. Machine learning can be used to improve the accuracy of these answers. Existing natural language models have been focused on extracting answers from a short paragraph rather than reading an entire page of content for proper context. As a result, the responses can be complicated or lengthy. A good answer will be both succinct and relevant. In this Kaggle Competition we try to put our hands on the state of out BERT Model which is highly suited for NQ (Natural Questions) problems. 
   
 # REQUIREMENTS
- We use the pre-trained model implemented by Google. In order to do so, we need to run the following commands, which would create 5 files for us. 
+ We use the pre-trained model implemented by Google. In order to do so, we need to run the following commands, which would create 5 files for us.
+ (Data file could not be added a the size exeeds the limit of github)
  
 ```
 !pip install --no-dependencies natural-questions
